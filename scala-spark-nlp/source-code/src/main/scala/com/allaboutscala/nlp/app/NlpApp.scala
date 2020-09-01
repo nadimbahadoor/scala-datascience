@@ -27,7 +27,10 @@ import com.allaboutscala.nlp.spark.{NlpServices, NlpAppController}
 
 object NlpApp extends App {
 
+  // kick off the spark nlp pipeline
   NlpBootstrap.start()
+
+  // stop the spark nlp pipeline
   NlpBootstrap.stop()
 
 }
